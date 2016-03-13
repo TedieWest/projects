@@ -65,7 +65,7 @@ class TasksController < ApplicationController
   end
 
   def change
-    @task.update_attributes(state:params[:state])
+    @task.update_attributes(state: params[:state])
     respond_to do |format|
       format.html {redirect_to tasks_path, notice: "Task was successfully updated"}
     end
