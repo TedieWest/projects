@@ -53,5 +53,10 @@ group :development do
   gem 'devise'
 
   gem 'auto_html', '~> 1.6'
+
+  gem 'dotenv-rails', :groups => [:development, :test]
+
+  #gem 'mandrill-api'
+
 end
 
