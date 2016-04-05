@@ -6,12 +6,4 @@ class UserMailer < Devise::Mailer
 	  	mail(to: @user.email, subject: 'Welcome to Projects')
 	  end
 
-	  def reset_password_instructions(record)
-	  end
-
-	  def confirmation_instructions(record)
-	  end
-	  
-	  def unlock_instructions(record)
-	  end
 end

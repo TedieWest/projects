@@ -15,7 +15,7 @@ Devise.setup do |config|
   config.mailer_sender = 'admin@projects.com'
 
   # Configure the class responsible to send e-mails.
-  config.mailer = 'UserMailer'
+  #config.mailer = 'UserMailer'
 
   # ==> ORM configuration
   # Load and configure the ORM. Supports :active_record (default) and

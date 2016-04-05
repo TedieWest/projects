@@ -58,5 +58,7 @@ group :development do
 
   #gem 'mandrill-api'
 
+  gem 'rails_admin'
+
 end
 
